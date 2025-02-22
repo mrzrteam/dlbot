@@ -65,11 +65,11 @@ console.log("URL ditemukan:", url);
 // Tentukan platform berdasarkan URL
 let apiUrl;
 if (url.includes("instagram.com")) {
-    apiUrl = `https://aihub.xtermai.xyz/api/downloader/instagram?url=${url}&key=loid`;
+    apiUrl = `https://aihub.xtermai.xyz/api/downloader/instagram?url=${url}&key=Bella409`;
 } else if (url.includes("tiktok.com")) {
-    apiUrl = `https://aihub.xtermai.xyz/api/downloader/tiktok?url=${url}&key=loid`;
+    apiUrl = `https://aihub.xtermai.xyz/api/downloader/tiktok?url=${url}&key=Bella409`;
 } else if (url.includes("youtube.com") || url.includes("youtu.be")) {
-    apiUrl = `https://aihub.xtermai.xyz/api/downloader/youtube?url=${url}&key=loid`;
+    apiUrl = `https://aihub.xtermai.xyz/api/downloader/youtube?url=${url}&key=Bella409`;
 } else {
     return console.log("URL tidak dikenali.");
 }
